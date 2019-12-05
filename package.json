@@ -1,0 +1,33 @@
+{
+	"name": "@samuelmeuli/prettier-config",
+	"version": "0.0.0",
+	"description": "My Prettier configuration",
+	"keywords": [
+		"prettier",
+		"config",
+		"prettier-config",
+		"format"
+	],
+	"author": {
+		"name": "Samuel Meuli",
+		"email": "me@samuelmeuli.com",
+		"url": "https://samuelmeuli.com"
+	},
+	"repository": "github:samuelmeuli/prettier-config",
+	"license": "MIT",
+	"files": [
+		"index.js"
+	],
+	"main": "./index.js",
+	"scripts": {
+		"format": "prettier --write '**/*.{css,html,js,json,jsx,less,md,scss,ts,tsx,vue,yaml,yml}'"
+	},
+	"dependencies": {},
+	"peerDependencies": {
+		"prettier": "^1.0.0"
+	},
+	"devDependencies": {
+		"prettier": "^1.19.1"
+	},
+	"prettier": "./index.js"
+}
