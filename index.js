@@ -1,9 +1,4 @@
 module.exports = {
-	// Enforce Linux/macOS-style line endings
-	// Default: "auto" (do not change line endings)
-	// Also covered by EditorConfig
-	endOfLine: "lf",
-
 	// Use tabs for indentation (spaces are still used for alignment)
 	// Default: false
 	// Also covered by EditorConfig
